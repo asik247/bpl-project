@@ -1,8 +1,8 @@
 import React from 'react';
 import flagImg from '../../assets/flag.png'
 import grupImg from '../../assets/grup.png'
-const Player = ({ player }) => {
-    console.log(player);
+const Player = ({ player,handleChoosePlayer }) => {
+    // console.log(player,);
     const { id, img, name, country, rating, batting, bowling, price } = player;
     return (
         <div>
@@ -34,7 +34,7 @@ const Player = ({ player }) => {
 
                 <div className="card-actions flex justify-between items-center">
                     <p className="font-semibold">Price:${price}</p>
-                    <button className="btn">Choose player</button>
+                    <button onClick={()=>handleChoosePlayer(player)} className="btn">Choose player</button>
                 </div>
 
             </div>

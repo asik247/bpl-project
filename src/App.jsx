@@ -28,7 +28,7 @@ const handleSellected = ()=>{
      {/* Avaiable code start here */}
     <div className='flex justify-between items-center w-11/12 mx-auto m-10'>
       {/* <h1 className='font-bold text-2xl'>Available Players</h1> */}
-      <h1>{toggle ? "Available Players" : "Selected Players"}</h1>
+      <h1 className='font-bold text-2xl'>{toggle ? "Available Players" : "Selected Players"}</h1>
       <div>
         <button onClick={handleAvailabe} className={`btn border-r-0 rounded-l-2xl ${toggle===true?"bg-yellow-400" :""}`}>Available</button>
         <button onClick={handleSellected} className={`btn border-l-0  rounded-r-2xl ${toggle===false?"bg-yellow-400":""}`}>Sellected <span>(0)</span></button>
