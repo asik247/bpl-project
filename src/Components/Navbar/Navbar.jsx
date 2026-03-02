@@ -45,8 +45,8 @@ const Navbar = () => {
 
             {/* Banner code here now */}
 
-            <div
-                className="flex flex-col items-center text-center space-y-6 py-16 bg-cover bg-center fixWids rounded-2xl"
+            {/* <div
+                className="flex flex-col items-center text-center space-y-6 py-16 bg-cover bg-center w-full md:w-11/12 mx-auto rounded-2xl"
                 style={{
                     backgroundImage: `
                      linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
@@ -70,7 +70,7 @@ const Navbar = () => {
                     Claim Free Credit
                 </button>
 
-            </div>
+            </div> */}
 
         </div>
 

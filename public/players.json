@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co.com/MDKSXq9n/images.jpg",
+    "name": "Virat Kohli",
+    "country": "India",
+    "rating": 98,
+    "batting": "Right-hand bat",
+    "bowling": "Right-arm medium",
+    "price": 1500000
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co.com/3mFf6r85/images-1.jpg",
+    "name": "Joe Root",
+    "country": "England",
+    "rating": 92,
+    "batting": "Right-hand bat",
+    "bowling": "Right-arm offbreak",
+    "price": 1200000
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co.com/WvRtrNQG/download.jpg",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "rating": 95,
+    "batting": "Right-hand bat",
+    "bowling": "Right-arm offbreak",
+    "price": 1300000
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co.com/0V2NqqX5/images-2.jpg",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "rating": 94,
+    "batting": "Right-hand bat",
+    "bowling": "Right-arm offbreak",
+    "price": 1250000
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co.com/5xcf1dgy/download-1.jpg",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "rating": 90,
+    "batting": "Right-hand bat",
+    "bowling": "Right-arm legbreak",
+    "price": 1100000
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co.com/zYRK2KK/images-3.jpg",
+    "name": "Steve Smith",
+    "country": "Australia",
+    "rating": 93,
+    "batting": "Right-hand bat",
+    "bowling": "Right-arm legbreak",
+    "price": 1350000
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co.com/DP8YFfy6/images-5.jpg",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "rating": 96,
+    "batting": "Right-hand bat",
+    "bowling": "Right-arm fast",
+    "price": 1400000
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co.com/V0cLvJRS/images-6.jpg",
+    "name": "David Warner",
+    "country": "Australia",
+    "rating": 91,
+    "batting": "Left-hand bat",
+    "bowling": "Right-arm medium",
+    "price": 1250000
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co.com/xKrnRGnM/images-4.jpg",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "rating": 92,
+    "batting": "Left-hand bat",
+    "bowling": "Left-arm orthodox",
+    "price": 1150000
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co.com/ZRnt66Mx/download-2.jpg",
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "rating": 90,
+    "batting": "Left-hand bat",
+    "bowling": "Left-arm fast",
+    "price": 1100000
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co.com/G3NDyFpW/images-7.jpg",
+    "name": "Ben Stokes",
+    "country": "England",
+    "rating": 94,
+    "batting": "Left-hand bat",
+    "bowling": "Right-arm fast-medium",
+    "price": 1300000
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co.com/99hTYBDW/images-8.jpg",
+    "name": "MS Dhoni",
+    "country": "India",
+    "rating": 97,
+    "batting": "Right-hand bat",
+    "bowling": "Right-arm medium",
+    "price": 1450000
+  }
+]
