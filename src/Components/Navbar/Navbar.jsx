@@ -5,6 +5,7 @@ import banner from '/src/assets/banner-main.png'
 // import bannerBg from '/src/assets/banner-shadow.png'
 // import bannerBg from '/src/assets/banner-shadow.png'
 // import logo from '/src/assets/logo.png'
+// import img from '/banner-shadwo.png'
 
 
 const Navbar = () => {
@@ -41,11 +42,17 @@ const Navbar = () => {
                 </div> */}
             </div>
 
+
             {/* Banner code here now */}
-            {/* Banner code here now */}
+
             <div
-                className="flex flex-col items-center text-center space-y-6 py-16 bg-cover bg-center"
-                style={{ backgroundImage: "url('/banner-shadow.png')" }}
+                className="flex flex-col items-center text-center space-y-6 py-16 bg-cover bg-center fixWids rounded-2xl"
+                style={{
+                    backgroundImage: `
+                     linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
+                  url('/bg-shadow.png')
+                                `
+                }}
             >
 
                 <img src={banner} alt="banner" className="w-80" />
@@ -66,6 +73,8 @@ const Navbar = () => {
             </div>
 
         </div>
+
+
 
 
 
