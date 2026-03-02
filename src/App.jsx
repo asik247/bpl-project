@@ -22,6 +22,14 @@ const handleSellected = ()=>{
   console.log("handle bbtn sellected");
   setToggle(false)
 }
+
+// Choose player code start here;
+
+ const handleChoosePlayer = (player) =>{
+        console.log("Chooce btn clicked",player);
+    }
+
+
   return (
     <div>
      <Navbar></Navbar>
@@ -43,7 +51,7 @@ const handleSellected = ()=>{
 
     {
       toggle === true ?<Suspense fallback={<h1>Loadding...</h1>}>
-      <Players fatchPromise={fatchPromise}></Players>
+      <Players handleChoosePlayer={handleChoosePlayer} fatchPromise={fatchPromise}></Players>
      
      </Suspense>: <Sellecteds></Sellecteds>
     }
