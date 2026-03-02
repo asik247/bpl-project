@@ -1,2 +1,11 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.fixWids{
+    width: 1100px;
+    margin: 20px auto;
+}
+.text-gray{
+    color: gray;
+    font-size: 16px;
+}
