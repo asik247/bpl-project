@@ -1,6 +1,11 @@
 import React from 'react';
 import '/src/index.css'
 import logo from '/src/assets/logo.png'
+import banner from '/src/assets/banner-main.png'
+// import bannerBg from '/src/assets/banner-shadow.png'
+// import bannerBg from '/src/assets/banner-shadow.png'
+// import logo from '/src/assets/logo.png'
+
 
 const Navbar = () => {
     return (
@@ -29,13 +34,42 @@ const Navbar = () => {
                         <li><a>Teams</a></li>
                         <li><a>Schedules</a></li>
                     </ul>
-                     <a className="btn rounded-xl"><span>0</span> Coin <img src="/src/assets/coin.png" alt="" /></a>
+                    <a className="btn rounded-xl"><span>0</span> Coin <img src="/src/assets/coin.png" alt="" /></a>
                 </div>
                 {/* <div className="navbar-end">
                    
                 </div> */}
             </div>
+
+            {/* Banner code here now */}
+            {/* Banner code here now */}
+            <div
+                className="flex flex-col items-center text-center space-y-6 py-16 bg-cover bg-center"
+                style={{ backgroundImage: "url('/banner-shadow.png')" }}
+            >
+
+                <img src={banner} alt="banner" className="w-80" />
+
+                <div>
+                    <h1 className="text-3xl font-bold">
+                        Assemble Your Ultimate Dream 11 Cricket Team
+                    </h1>
+                    <p className="text-gray mt-2">
+                        Beyond Boundaries Beyond Limits
+                    </p>
+                </div>
+
+                <button className="btn rounded-xl">
+                    Claim Free Credit
+                </button>
+
+            </div>
+
         </div>
+
+
+
+
     );
 };
 
