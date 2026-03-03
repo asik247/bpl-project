@@ -19,11 +19,11 @@ const App = () => {
      <Navbar></Navbar>
       <div className='flex justify-between items-center w-11/12 mx-auto mt-5'>
         <div>
-          <h1>Available Players</h1>
+          <h1>{toggle===true?"Available Players":"Sellected Players"}</h1>
         </div>
         <div>
-          <button className='btn bg-amber-300 border-r-0'>Available</button>
-          <button className='btn bg-amber-300 border-l-0'>Sellected</button>
+          <button className='btn bg-amber-300 border-r-0 rounded-l-2xl'>Available</button>
+          <button className='btn bg-amber-300 border-l-0 rounded-r-2xl'>Sellected</button>
         </div>
       </div>
 
