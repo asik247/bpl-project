@@ -33,6 +33,8 @@ const App = () => {
             onClick={() => setToggle(false)}
             className={`btn rounded-r-2xl ${toggle===false ? 'bg-amber-300' : 'bg-gray-200'}`}
           >
+            al
+            
             Selected
           </button>
         </div>
