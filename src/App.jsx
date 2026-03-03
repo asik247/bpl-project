@@ -24,7 +24,7 @@ const App = () => {
         <div className="flex">
           <button
             onClick={() => setToggle(true)}
-            className={`btn ${toggle ? 'bg-amber-300' : 'bg-gray-200'}`}
+            className={`btn rounded-l-2xl ${toggle ? 'bg-amber-300' : 'bg-gray-200'}`}
           >
             Available
           </button>
