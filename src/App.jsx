@@ -19,7 +19,7 @@ const App = () => {
       <Navbar></Navbar>
       <div className='flex justify-between items-center w-11/12 mx-auto mt-5'>
         <div>
-          <h1 className='font-bold text-2xl'>{toggle === true ? "Available Players" : "Sellected Players"}</h1>
+          <h1 className='font-extrabold text-2xl'>{toggle === true ? "Available Players" : "Sellected Players"}</h1>
         </div>
         <div className="flex">
           <button
