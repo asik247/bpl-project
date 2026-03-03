@@ -26,12 +26,14 @@ const App = () => {
           <button className='btn bg-amber-300 border-l-0 rounded-r-2xl'>Sellected</button>
         </div>
       </div>
-
-    <Suspense fallback={<h1>Loadding...</h1>}>
+      {
+        toggle===true?<Suspense fallback={<h1>Loadding...</h1>}>
       <Players fatchPromise={fatchPromise}></Players>
      
-     </Suspense>
-     <Sellecteds></Sellecteds>
+     
+     </Suspense>:<Sellecteds></Sellecteds>
+      }
+    
     </div>
   );
 
